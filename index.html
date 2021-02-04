@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>Task Management System</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+<body>
+    <div id="header">
+        <div class="logo">
+            <img src="images/title.png" alt="Logo">
+        </div>
+    </div>
+    <div id="body-container">
+        <div class="section-top">
+            <div class="writing-container">
+                <div class="alert-msg"></div>
+                <form action="">
+                    <input class="input input-text task_name" placeholder="Enter Task Name">
+                    <textarea class="input input-area task_description" placeholder="Enter Task Description"></textarea>
+                    <button onclick="task.create()" type="button" class="input-btn">Submit</button>
+                </form>
+            </div>
+        </div>
+        <div class="section-bottom">
+            <div class="task-container">
+
+            </div>
+        </div>
+    </div>
+</body>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/localstoragedb.js"></script>
+    <script src="js/main.js"></script>
+</html>
